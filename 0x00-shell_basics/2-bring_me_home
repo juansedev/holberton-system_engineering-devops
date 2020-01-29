@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/vagrant; exec bash; \n
+cd /home/vagrant;  exec bash    
