@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la   /home/vagrant/holberton-system_engineering-devops/0x00-shell_basics/ /boot/ /home/vagrant/holberton-system_engineering-devops/
+ls -la . .. /boot/
