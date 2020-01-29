@@ -3,3 +3,5 @@ In the file 0-current_working_directory I used the command "pwd" to know path na
 In the file 1-listit I used the command "ls" to  show the files directory
 
 In the file 2-bring_me_home I used the command "cd" and command especial exec  to close the subshell and move to parent directory
+
+In the file 3-listfiles I used the command "ls -la" to  show the files directory in its format long
