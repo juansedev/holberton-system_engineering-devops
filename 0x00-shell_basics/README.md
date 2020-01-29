@@ -6,4 +6,4 @@ In the file 4-listmorefiles I used the command "ls -la" to show hidden files
 In the file 5-listfilesdigitonly I user de commad "ls -lan" to show user and group IDs
 In the file 7-movethatfile a file called betty was created and moved from tmp  to  tmp/holberton/ pathand its location was validated with ls /tmp/holberton/
 In the file 8-firstdelete I used de command "rm" to delete file betty from directory /tmp/holberton/
-In the file 9-firstdeletion used de command "rm -r" to delete all folder /tmp/holberton
+In the file 9-firstdeletion used de command "rm -r" to delete all folder /tmp/holberton/
