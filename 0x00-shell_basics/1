@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l
+mv betty /tmp/holberton/  ls /tmp/holberton/
