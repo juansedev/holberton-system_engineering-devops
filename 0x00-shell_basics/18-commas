@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apsort --format=commas
+ls -mav
