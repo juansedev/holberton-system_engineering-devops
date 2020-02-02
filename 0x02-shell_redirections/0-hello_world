@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "Hello, Wordl"
-
+echo -e  'Hello, Wordl \n'
