@@ -13,4 +13,5 @@ n this repository we find the project 0x02. Shell, I / O redirects and filters, 
     rev
     cut
     passwd (5) (i.e. man 5 passwd)
+ Task 0 0-hello_world
 
