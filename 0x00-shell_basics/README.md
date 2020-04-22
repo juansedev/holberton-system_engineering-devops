@@ -1,9 +1,109 @@
-In the file 0-current_working_directory I used the command "pwd" to know path name of working directoryIn this task  used the command "pwd" to know path name of working directory
-In the file 1-listit I used the command "ls" to  show the files directory
-In the file 2-bring_me_home I used the command "cd" and command especial exec  to close the subshell and move to parent directory
-In the file 3-listfiles I used the command "ls -l" to  show the files directory in its format long
-In the file 4-listmorefiles I used the command "ls -la" to show hidden files
-In the file 5-listfilesdigitonly I user de commad "ls -lan" to show user and group IDs
-In the file 7-movethatfile a file called betty was created and moved from tmp  to  tmp/holberton/ pathand its location was validated with ls /tmp/holberton/
-In the file 8-firstdelete I used de command "rm" to delete file betty from directory /tmp/holberton/
-In the file 9-firstdeletion used de command "rm -r" to delete all folder /tmp/holberton/
+<p align="center">
+     <p align="center">
+          <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+     </p>
+     <p align="center">
+          <a href="https://github.com/ellerbrock/open-source-badges/">
+               <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops/commits/master">
+               <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/llanojs/holberton-system_engineering-devops" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops/graphs/contributors">
+               <img alt="contributors" src="https://img.shields.io/github/contributors/llanojs/holberton-system_engineering-devops" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops" target="_blank">
+               <img alt="code-size" src="https://img.shields.io/github/languages/code-size/llanojs/holberton-system_engineering-devops" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops" target="_blank">
+               <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+          </a>
+     </p>
+</p>
+
+<h1 align="center">System engineering & DevOps - Bash </h1>
+<h2 align="center">0x00. Shell, basics </h2>
+
+## :earth_americas: Resources  
+
+* [What Is “The Shell”?](http://linuxcommand.org/lc3_lts0010.php)
+* [Navigation](http://linuxcommand.org/lc3_lts0020.php)
+* [Looking Around](http://linuxcommand.org/lc3_lts0030.php)
+* [A Guided Tour](http://linuxcommand.org/lc3_lts0040.php)
+* [Manipulating Files](http://linuxcommand.org/lc3_lts0050.php)
+* [Working With Commands](http://linuxcommand.org/lc3_lts0060.php)
+* [Reading Man pages](http://linuxcommand.org/lc3_man_pages/man1.html)
+* [Keyboard shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+* [LTS](https://wiki.ubuntu.com/LTS)
+* [Shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29)
+
+## man or help:
+
+*   cd
+*   ls
+*   pwd
+*   less
+*   file
+*   ln
+*   cp
+*   mv
+*   rm
+*   mkdir
+*   type
+*   which
+*   help
+*   man
+
+
+## :memo: Files 
+##|File
+---|---
+1|[README.md](./README.md) 
+2|[0-current_working_directory](./0-current_working_directory)
+3|[1-listit](./1-listit)
+4|[2-bring_me_home](./2-bring_me_home)
+5|[3-listfiles](./3-listfiles)
+6|[4-listmorefiles](./4-listmorefiles)
+7|[5-listfilesdigitonly](./5-listfilesdigitonly)
+8|[6-firstdirectory](./6-firstdirectory)
+9|[7-movethatfile](./7-movethatfile)
+10|[8-firstdelete](./8-firstdelete)
+11|[9-firstdirdeletion](./9-firstdirdeletion)
+12|[10-back](./10-back)
+13|[11-lists](./11-lists)
+14|[12-file_type](./12-file_type)
+15|[13-symbolic_link](./13-symbolic_link)
+16|[14-copy_html](./14-copy_html)
+17|[15-lets_move](./15-lets_move)
+18|[16-clean_emacs](./16-clean_emacs)
+19|[17-tree](./17-tree)
+20|[18-commas](./18-commas)
+21|[holberton](./holberton)
+22|[holberton.mgc](./holberton.mgc)
+
+---
+
+<p align="center">
+    <h2 align="center">By, Juan Sebastian Llano Gallego</h2>
+      <p align="center">
+        <a href="https://twitter.com/llanoJS" target="_blank">
+            <img alt="twitter_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/twitter.png" style="float: center; margin-right: 10px" height="50" width="50">
+        </a>
+        <a href="https://www.linkedin.com/in/juansllano/" target="_blank">
+            <img alt="linkedin_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
+        </a>
+        <a href="https://medium.com/@juanllano93" target="_blank">
+            <img alt="medium_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/medium.png" style="float: center; margin-right: 10px" height="50" width="50">
+        </a>
+      </p>
+</p>
+
+## Made with :heart: in
+<img src="https://www.holbertonschool.com/holberton-logo.png"
+     alt="Flow chart"
+     style="float: left; margin-right: 10px;">
+
+**Holberton School - Colombia**
+**Foundations - System engineering & DevOps - Bash**
+
+**Febrary, 2020.**
