@@ -22,7 +22,7 @@
 </p>
 
 <h1 align="center">System engineering & DevOps - Bash </h1>
-<h2 align="center">0x00. Shell, basics </h2>
+<h2 align="center">0x01. Shell, permissions  </h2>
 
 ## :earth_americas: Resources  
 
@@ -46,7 +46,7 @@
 
 # Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able [to explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
 
 # Permissions
 

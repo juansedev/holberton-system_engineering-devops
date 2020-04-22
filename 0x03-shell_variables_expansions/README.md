@@ -1,21 +1,156 @@
- 0x03. Shell, init files, variables and expansions
+<p align="center">
+     <p align="center">
+          <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
+     </p>
+     <p align="center">
+          <a href="https://github.com/ellerbrock/open-source-badges/">
+               <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops/commits/master">
+               <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/llanojs/holberton-system_engineering-devops" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops/graphs/contributors">
+               <img alt="contributors" src="https://img.shields.io/github/contributors/llanojs/holberton-system_engineering-devops" target="_blank" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops" target="_blank">
+               <img alt="code-size" src="https://img.shields.io/github/languages/code-size/llanojs/holberton-system_engineering-devops" />
+          </a>
+          <a href="https://github.com/llanojs/holberton-system_engineering-devops" target="_blank">
+               <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+          </a>
+     </p>
+</p>
 
-Resources
-Read or watch:
+<h1 align="center">System engineering & DevOps - Bash </h1>
+<h2 align="center">0x02. Shell, I/O Redirections and filters </h2>
 
-Expansions
-Shell Arithmetic
-Variables
-Shell initialization files
-The alias Command
-man or help:
+## :earth_americas: Resources  
 
-printenv
-set
-unset
-export
-alias
-unalias
-.
-source
-printf
+* [Shell, I/O Redirection](http://linuxcommand.org/lc3_lts0070.php)
+* [Special Characters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)
+
+
+    [Expansions](http://linuxcommand.org/lc3_lts0080.php)
+    [Shell Arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+    [Variables](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+    [Shell initialization files](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+    [The alias Command](http://www.linfo.org/alias.html)
+    [Technical Writing](Technical_Writing)
+
+
+# man or help:
+
+*    printenv
+*    set
+*    unset
+*    export
+*    alias
+*    unalias
+*    .
+*    source
+*    printf
+
+# Learning Objectives
+
+* At the end of this project, you are expected to be able [to explain to anyone](https://fs.blog/2012/04/feynman-technique/), without the help of Google:
+
+#   General
+
+*    What happens when you type `$ ls -l *.txt`
+
+#   Shell Initialization Files
+
+*    What are the **/etc/profile** file and the **/etc/profile.d** directory
+*    What is the **~/.bashrc** file
+
+#   Variables
+
+*    What is the difference between a local and a global variable
+*    What is a reserved variable
+*    How to create, update and delete shell variables
+*    What are the roles of the following reserved variables: HOME, PATH, PS1
+*    What are special parameters
+*    What is the special parameter **$?**?
+
+#   Expansions
+
+*    What is expansion and how to use them
+*    What is the difference between single and double quotes and how to use them properly
+*    How to do command substitution with **$()** and backticks
+
+#   Shell Arithmetic
+
+*    How to perform arithmetic operations with the shell
+
+#   The `alias` Command
+
+*    How to create an alias
+*    How to list aliases
+*    How to temporarily disable an alias
+
+#   Other `help` pages
+
+*    How to execute commands from a file in the current shell
+
+# More Info
+
+* Read your **/etc/profile**, **/etc/inputrc** and **~/.bashrc** files.
+* Look at some files in the **/etc/profile.d** directory.
+
+
+
+
+
+## :memo: Files 
+#|File
+---|---
+1|[README.md](./README.md) 
+2|[0-hello_world](./0-hello_world)
+3|[1-confused_smiley ](./1-confused_smiley )
+4|[2-hellofile](./2-hellofile)
+5|[3-twofiles](./3-twofiles)
+6|[4-lastlines](./4-lastlines)
+7|[5-firstlines](./5-firstlines)
+8|[6-third_line](./6-third_line)
+9|[7-file](./7-file)
+10|[8-cwd_state](./8-cwd_state)
+11|[9-duplicate_last_line](./9-duplicate_last_line)
+12|[10-no_more_js](./10-no_more_js)
+13|[11-directories](./11-directories)
+14|[12-newest_files](./12-newest_files)
+15|[13-unique](./13-unique)
+16|[14-findthatword](./14-findthatword)
+17|[15-countthatword](./15-countthatword)
+18|[16-whatsnext](./16-whatsnext)
+19|[17-hidethisword](./17-hidethisword)
+20|[18-letteronly](./18-letteronly)
+21|[19-AZ ](./19-AZ )
+22|[21-reverse](./21-reverse)
+
+---
+
+<p align="center">
+    <h2 align="center">By, Juan Sebastian Llano Gallego</h2>
+      <p align="center">
+        <a href="https://twitter.com/llanoJS" target="_blank">
+            <img alt="twitter_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/twitter.png" style="float: center; margin-right: 10px" height="50" width="50">
+        </a>
+        <a href="https://www.linkedin.com/in/juansllano/" target="_blank">
+            <img alt="linkedin_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/linkedin.png" style="float: center; margin-right: 10px" height="50"  width="50">
+        </a>
+        <a href="https://medium.com/@juanllano93" target="_blank">
+            <img alt="medium_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/medium.png" style="float: center; margin-right: 10px" height="50" width="50">
+        </a>
+      </p>
+</p>
+
+## Made with :heart: in
+<img src="https://www.holbertonschool.com/holberton-logo.png"
+     alt="Flow chart"
+     style="float: left; margin-right: 10px;">
+
+**Holberton School - Colombia**
+**Foundations - System engineering & DevOps - Bash**
+
+**Febrary, 2020.**
+
