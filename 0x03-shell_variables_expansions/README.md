@@ -26,17 +26,11 @@
 
 ## :earth_americas: Resources  
 
-* [Shell, I/O Redirection](http://linuxcommand.org/lc3_lts0070.php)
-* [Special Characters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)
-
-
-    [Expansions](http://linuxcommand.org/lc3_lts0080.php)
-    [Shell Arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
-    [Variables](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
-    [Shell initialization files](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
-    [The alias Command](http://www.linfo.org/alias.html)
-    [Technical Writing](Technical_Writing)
-
+*    [Expansions](http://linuxcommand.org/lc3_lts0080.php)
+*    [Shell Arithmetic](https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html)
+*    [Variables](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_02.html)
+*    [Shell initialization files](http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_01.html)
+*    [The alias Command](http://www.linfo.org/alias.html)
 
 # man or help:
 
