@@ -120,6 +120,10 @@
 14|[12-combinations](./12-combinations)
 15|[13-print_float](./13-print_float)
 16|[14-decimal_to_hexadecimal](./14-decimal_to_hexadecimal)
+16|[100-rot13](./100-rot13)
+16|[101-odd](./101-odd)
+16|[102-water_and_stir](./102-water_and_stir)
+
 
 ---
 
