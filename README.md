@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
- <h1 align="center">System engineering & DevOps - Bash</h1>
  <p align="center">
     <a href="https://github.com/ellerbrock/open-source-badges/">
         <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
@@ -18,6 +17,7 @@
       <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
     </a>
  </p>
+ <h1 align="center">System engineering & DevOps - Bash</h1>
 </p>
 
 
