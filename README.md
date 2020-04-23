@@ -43,11 +43,7 @@ In this project, I reviewed the basic concepts about [BASH](https://www.gnu.org/
 3|[0x02-shell_redirections](./0x02-shell_redirections)|In this project the basic commands of the text editor VI were revised.
 4|[0x03-shell_variables_expansions](./0x03-shell_variables_expansions)|In this project I work with the Github version control tool and its main commands.
 
-<br>
-<br>
-<br>
 ---
-
 
 <p align="center">
     <h2 align="center">By, Juan Sebastian Llano Gallego</h2>
