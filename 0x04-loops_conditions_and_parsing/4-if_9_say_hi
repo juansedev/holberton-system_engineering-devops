@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Bash script that displays Holberton School 10 times with until loop
+var="Holberton School"
+
+i=1
+until [ $i -gt 10 ]
+do
+        if [ $i -eq 9 ]
+        then
+                echo "Hi"
+        else
+                echo "$var"
+        fi
+        ((i = i + 1))
+done
