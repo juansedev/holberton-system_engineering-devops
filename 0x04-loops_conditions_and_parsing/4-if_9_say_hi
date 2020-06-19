@@ -2,9 +2,8 @@
 # Bash script that displays Holberton School 10 times with until loop
 var="Holberton School"
 
-i=1
-until [ $i -gt 10 ]
-do
+i=0
+while [ $i -lt 11 ]; do
         if [ $i -eq 9 ]
         then
                 echo "Hi"
