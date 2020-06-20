@@ -2,5 +2,5 @@
 #In a list format
 log="apache-access.log"
 for i in $log; do
-        awk '{print $1 " " $9}' "$i" 
+        awk '{print $1,$9}' "$i" 
 done
