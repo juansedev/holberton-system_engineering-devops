@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#In a list format
+log="apache-access.log"
+for i in $log; do
+        awk -F\" '{print $1}' "$i" 
+done
