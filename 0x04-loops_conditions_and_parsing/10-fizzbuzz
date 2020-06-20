@@ -5,7 +5,7 @@
 #Displays Buzz when the number is a multiple of 5
 
 i=1
-while ((i < 101)); do
+while [ $i -ne 101 ]; do
         if [[ $((i % 3)) -eq 0  && $((i % 5)) -eq 0 ]]
         then
                 echo "FizzBuzz"
