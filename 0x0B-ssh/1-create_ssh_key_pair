@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that creates an RSA key pair, 2096 bits, with filename
+# and passphrase
+ssh-keygen -b 4096 -f holberton -N betty
