@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
-# configurea Ubuntu machin
+# Script to install and configure HAproxy
+sudo apt-get -y update
+# Install HA Proxy
+sudo apt-get -y install haproxy
+# Enable to HA Proxy to start at boot
+sudo echo "ENABLED=1" >> /etc/default/haproxy
 
- sudo apt-get -y update
- sudo apt-get -y install nginx
- sudo ufw allow 'Nginx HTTP'
- echo "Holberton School" > /var/www/html/index.nginx-debian.html
- sudo service nginx restart
+sudo echo "frontend web-frontend
+		bind *:80
+		mode http
+		default_backend web-backend
+	  backend web-backend
+	    balance roundrobin
+	    server 1285-web-01 35.243.244.163:80 check
+     	server 1285-web-02 54.146.93.68:80 check
+" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
