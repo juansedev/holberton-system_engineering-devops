@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Fix a container running nginx
+chown ngingx:nginx  /etc/nginx/nginx.conf
+chmod 777 /etc/nginx/nginx.conf
+sed -i 's/80/8080/' /etc/nginx/sites-avaible/default
+pkill apache2
+sudo -u nginx service nginx restart
