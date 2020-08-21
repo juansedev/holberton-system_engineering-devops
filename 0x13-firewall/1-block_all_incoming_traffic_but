@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# install ufw and set up port 22,443,80
+sudo apt-get -y install ufw
+sudo ufw default deny incoming
+sudo ufw allow 80/tcp
+sudo ufw allow http/tcp
+sudo ufw allow 443/tcp
+sudo service ufw restart
+sudo ufw enable
+sudo ufw status verbose
+#!/usr/bin/env bash
+# install ufw and set up port 22,443,80
+sudo apt-get -y install ufw
+sudo ufw default deny incoming
+sudo ufw allow 80/tcp
+sudo ufw allow http/tcp
+sudo ufw allow 443/tcp
+sudo service ufw restart
+sudo ufw enable
+sudo ufw status verbose
+
