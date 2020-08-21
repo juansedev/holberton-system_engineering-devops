@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # install ufw and set up port 22,443,80
 sudo apt-get -y install ufw
-sudo ufw default deny incoming
+sudo ufw enable
 sudo ufw allow 80/tcp
-sudo ufw allow 22/tcp
-sudo ufw allow 443/tcp
-sudo service ufw restart
+sudo ufw allow ssh/tcp
+sudo ufw allow https/tcp
