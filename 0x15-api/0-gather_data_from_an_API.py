@@ -10,7 +10,7 @@ if __name__ == "__main__":
     # Get the user
     url = 'https://jsonplaceholder.typicode.com/users/' + user_id
     user = requests.get(url)
-    user_name = user.json().get('username')
+    user_name = user.json().get('name')
 
     # Get the task
     url = 'https://jsonplaceholder.typicode.com/users/' + user_id + '/todos'
@@ -19,7 +19,9 @@ if __name__ == "__main__":
 
     len_don = len(task_done)
     len_all = len(task_li.json())
-    print("{} is done with tasks({}/{}):".format(user_name, len_don, len_all))
+    print("Employee {} is done with tasks({}/{}):".format(user_name,
+                                                          len_don,
+                                                          len_all))
 
-    for task in task_li.json():
+    for task in task_done:
         print('\t ' + task['title'])
