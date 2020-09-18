@@ -5,7 +5,6 @@
    f an invalid subreddit is given, the function should return 0.
 """
 
-
 import requests
 
 
@@ -19,8 +18,8 @@ def recurse(subreddit, hot_list=[], after=None):
     head = {"User-Agent": "Mozilla/5.0"}
     j_response = requests.get(url, headers=head).json()
 
-    if j_response.get('error') == 404:
-        return('None')
+    if 'error' in j_response:
+        return(None)
     else:
         data = j_response.get('data').get('children')
         for obj in data:
